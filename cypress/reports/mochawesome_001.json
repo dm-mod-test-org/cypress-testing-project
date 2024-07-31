@@ -1,0 +1,105 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2024-07-19T00:38:25.479Z",
+    "end": "2024-07-19T00:38:33.014Z",
+    "duration": 7535,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "57d252c3-a155-4a2c-aea3-a173f2678a84",
+      "title": "",
+      "fullFile": "cypress/integration/app_spec.js",
+      "file": "cypress/integration/app_spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "694f47f2-eb6e-4b16-86e7-d6dacccfde16",
+          "title": "App Page",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "should have the correct page title",
+              "fullTitle": "App Page should have the correct page title",
+              "timedOut": null,
+              "duration": 6597,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.title().should('eq', 'Testing Frameworks for Javascript | Write, Run, Debug | Cypress');",
+              "err": {},
+              "uuid": "d16e5ea1-f40a-42de-946d-2227c0d913f9",
+              "parentUUID": "694f47f2-eb6e-4b16-86e7-d6dacccfde16",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "d16e5ea1-f40a-42de-946d-2227c0d913f9"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 6597,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/reports",
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}
